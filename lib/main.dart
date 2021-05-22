@@ -58,8 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
       res = int.parse(texttodisplay = btnval).toString();
     }
 
-    setState(() {
-      texttodisplay = res;
+    setState(() {      texttodisplay = res;
     });
   }
 
